@@ -125,7 +125,7 @@ public class BahmniReportsProperties {
     }
 
     public String getTrustSSLConnection() {
-        return props.getProperty("reports.json.ssl.accept-untrusted-certificates","true");
+        return props.getProperty("reports.json.ssl.accept-untrusted-certificates","false");
     }
 
     public String getMartUrl() {
